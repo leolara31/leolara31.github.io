@@ -1,34 +1,25 @@
 body {
-    background-color: white;
+    margin: 0;
+    background-color:#8C8B8B
 }
-h1 {
-    background-color: rgb(11, 135, 218);
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    padding: 50px;
-    border-radius: 50px;
-    box-shadow: 8px 8px 0px 2px black;
-    font-weight: bold;
-}
-.bloco_nome {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .foto {
-    border-radius: 50px;
-}
-ul {
-    font-size: 20px;
-}
-h3 {
-    font-size: 35px;
+  border-radius: 100px;
+  margin-left: 150px;
 }
 .descrição {
-    font-size: 20px;
+  font-size: 20px;
 }
-p {
-    font-family: sans-serif;
+.cabecalho {
+    background-color: #262626;
+    border: solid black 3px;
+    height: 150px;
+}
+.iconesCabecalho {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
 }
