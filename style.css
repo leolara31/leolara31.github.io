@@ -61,9 +61,41 @@ body {
 p {
   font-size: 35px;
 }
-
+.projetos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  background-color: #8c8c8c;
+}
+.principaisProjetos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.bloco {
+  display: flex;
+  background-color: #bfbfbf;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 50px;
+}
 @media screen and (max-width: 800px) {
   .sobreMim {
     flex-direction: column;
+  }
+
+  .principaisProjetos {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
   }
 }
